@@ -1,23 +1,15 @@
-import logo from './assets/logo.svg';
+
 import styles from './App.module.scss';
+import { HeroText } from './components/hero-text/hero-text';
+import { SubText } from './components/sub-text/sub-text';
+import { Container } from './components/container/container';
 
 function App() {
     return (
         <div className={styles.App}>
-            <header className={styles['App-header']}>
-                <img src={logo} className={styles['App-logo']} alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className={styles['App-link']}
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+            <HeroText />
+            <SubText />
+            <Container />
         </div>
     );
 }
