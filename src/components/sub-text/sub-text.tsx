@@ -5,5 +5,5 @@ export interface SubTextProps {
 }
 
 export const SubText = ({ className }: SubTextProps) => {
-    return <div className={`${styles.root} ${className} ${styles['sub-text']}`}>Sign-up for our 30-day trial. No credit card required</div>;
+    return <div className={`${className} ${styles['sub-text']}`}>Sign-up for our 30-day trial. No credit card required</div>;
 };

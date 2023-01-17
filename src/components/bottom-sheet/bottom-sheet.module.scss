@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
+.bottomSheet {
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 48px;
+    font-family: Manrope;
+    box-sizing: border-box;
+    border-top: 1px solid #ECF0FB;
+}
+
+.ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: start;
+    color: #848EAD;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+.ul li {
+    margin-bottom: 11px;
+}

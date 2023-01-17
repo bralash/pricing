@@ -5,5 +5,5 @@ export interface HeroTextProps {
 }
 
 export const HeroText = ({ className }: HeroTextProps) => {
-    return <div className={`${styles.root} ${className} ${styles['hero']}`}>Simple, traffic-based pricing</div>;
+    return <div className={`${className} ${styles['hero']}`}>Simple, traffic-based pricing</div>;
 };
