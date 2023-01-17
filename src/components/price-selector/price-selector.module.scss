@@ -1,4 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+
 .priceSelector {
     height: 261px;
     width: 540px;
+    box-sizing: border-box;
+    padding: 40px 48px 24px;
+}
+
+.pageViewContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.pageView {
+    color: #848EAD;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Manrope;
+}
+
+.price {
+    color: #293356;
+    font-size: 40px;
+    line-height: 55px;
+    font-weight: 700;
+    font-family: Manrope;
+    display: flex;
+    align-items: center;
+}
+
+.price span {
+    font-size: 16px;
+    line-height: 22px;
+    color: #848EAD;
+    display: inline-block;
+    margin-left: 8px;
+    font-weight: 600;
 }

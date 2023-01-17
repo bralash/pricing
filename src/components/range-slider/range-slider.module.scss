@@ -1,0 +1,17 @@
+
+.rangeSlider input[type=range] {
+    width: 100%;
+    appearance: none;
+}
+
+.rangeSlider input[type=range]::-webkit-slider-thumb {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background-color: #10D8C4;
+    border-radius: 20px;
+    background-image: url(icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
