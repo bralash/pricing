@@ -23,4 +23,23 @@
 
 .ul li {
     margin-bottom: 11px;
+    list-style-image: url(icon-check.svg);
+}
+
+.ul li span {
+    position: relative;
+    left: 16px
+}
+
+.startTrial {
+    text-decoration: none;
+    font-family: Manrope;
+    background-color: #293356;
+    color: #BECDFF;
+    display: inline-block;
+    border-radius: 20.5px;
+    padding: 12px 46px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 800;
 }

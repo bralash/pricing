@@ -5,8 +5,20 @@ export interface BottomSheetProps {
 }
 
 export const BottomSheet = ({ className }: BottomSheetProps) => {
-    return <div className={`${styles.root} ${className} ${styles.bottomSheet}`}>
-        <ul className={styles.ul}><li>Unlimited websites</li><li>100% data ownership</li><li>Email reports</li></ul>
-        <button>Button</button>
-    </div>;
+    return (
+        <div className={`${styles.root} ${className} ${styles.bottomSheet}`}>
+            <ul className={styles.ul}>
+                <li>
+                    <span>Unlimited websites</span>
+                </li>
+                <li>
+                    <span>100% data ownership</span>
+                </li>
+                <li>
+                    <span>Email reports</span>
+                </li>
+            </ul>
+            <a href="/" className={`${styles.startTrial}`}>Start my trial</a>
+        </div>
+    );
 };
