@@ -7,9 +7,12 @@ export interface RangeSliderProps {
 }
 
 export const RangeSlider = ({ className }: RangeSliderProps) => {
+    const getValue = (e: React.ChangeEvent<HTMLInputElement>) => {
+        console.log(e.target.value)
+    }
     return (
         <div className={`${styles.rangeSlider} ${className}`}>
-            <input type="range" min="0" max="100" value="50" onChange={()=>{}} className="slider" />
+            <input type="range" min={1} max={100} onChange={getValue} className="slider" />
         </div>
     );
 };

@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
 
 .hero {
+    position: relative;
     font-family: Manrope;
     font-size: 28px;
     font-weight: 800;
     line-height: 38px;
     text-align: center;
+}
+
+.hero img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 146px;
+    left: 0;
+    right: 0;
+    top: -37px;
 }
